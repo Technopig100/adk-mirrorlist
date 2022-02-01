@@ -1,2 +1,2 @@
-# Carli mirrorlist
+# Frost mirrorlist
 
