@@ -1,0 +1,5 @@
+# United States San Francisco
+Server = https://arcolinuxiso.github.io/$repo/$arch
+
+# Gitlab
+Server = https://gitlab.com/arcolinux/$repo/-/raw/master/$arch
