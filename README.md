@@ -1,2 +1,2 @@
-# Frost mirrorlist
+# ADK mirrorlist
 
