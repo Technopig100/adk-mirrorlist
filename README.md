@@ -1,2 +1,2 @@
-# ADK mirrorlist
+# ADK-Linux mirrorlist
 
