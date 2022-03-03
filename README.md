@@ -1,2 +1,2 @@
-# ADK-Linux mirrorlist
+# ADK-Linux Github mirrorlist
 
