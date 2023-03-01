@@ -18,6 +18,11 @@ pkgver() {
   date +%y.%m
 }
 
+updatelist() {
+  rm -f adk-mirrorlist
+  curl -o adk-mirrorlist https://raw.githubusercontent.com/Technopig100/adk-mirrorlist/main/adk-mirrorlist
+}
+
 package() {
   mkdir -p "$pkgdir/etc/pacman.d"
   install -m644 "$srcdir/adk-mirrorlist" "$pkgdir/etc/pacman.d/"
