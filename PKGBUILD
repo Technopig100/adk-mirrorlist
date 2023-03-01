@@ -1,6 +1,6 @@
 # Maintainer: Jacob Durant <technopig@hotmail.com>
 
-pkgname=adk-mirrorlist
+pkgname=adk-mirrorlist-git
 pkgver=23.02
 pkgrel=01
 pkgdesc="ADK-Linux mirror list for use by pacman"
