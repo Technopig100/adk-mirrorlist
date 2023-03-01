@@ -8,7 +8,7 @@ arch=('any')
 url="https://github.com/Technopig100/adk-mirrorlist.git"
 license=('GPL')
 backup=(etc/pacman.d/adk-mirrorlist)
-source=(adk-mirrorlist)
+source=(adklinux-mirrorlist)
 
 # NOTE on building this package:
 # * Update the checksums, update pkgver
@@ -19,13 +19,13 @@ pkgver() {
 }
 
 updatelist() {
-  rm -f adk-mirrorlist
-  curl -o adk-mirrorlist https://raw.githubusercontent.com/Technopig100/adk-mirrorlist/main/adk-mirrorlist
+  rm -f adklinux-mirrorlist
+  curl -o adklinux-mirrorlist https://raw.githubusercontent.com/Technopig100/adk-mirrorlist/main/adklinux-mirrorlist
 }
 
 package() {
   mkdir -p "$pkgdir/etc/pacman.d"
-  install -m644 "$srcdir/adk-mirrorlist" "$pkgdir/etc/pacman.d/"
+  install -m644 "$srcdir/adklinux-mirrorlist" "$pkgdir/etc/pacman.d/"
 }
 
 md5sums=('2d947a0f1ce0dc859f19412e455fd9f5')
