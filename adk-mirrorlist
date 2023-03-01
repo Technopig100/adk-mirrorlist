@@ -1,0 +1,8 @@
+##
+## ADK-Linux repository mirrorlist
+## Generated on 2023-02-28
+##
+
+## Worldwide
+Server = https://technopig100.github.io/$repo/$arch
+
